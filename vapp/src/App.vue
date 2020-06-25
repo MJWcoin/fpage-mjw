@@ -22,7 +22,7 @@
 
     <q-drawer show-if-above v-model="left" side="left" bordered>
 <div v-if="isDrizzleInitialized" id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
+    <img alt="Drizzy logo" src="./assets/drizzle-logo.png" />
 
     <div class="section">
       <h2>Show the Accounts</h2>
@@ -46,6 +46,7 @@
   </div>
 
   <div v-else>Loading...</div>
+    <q-spinner-gears color="teal" size="22.5em" />
     </q-drawer>
 
     <q-page-container>

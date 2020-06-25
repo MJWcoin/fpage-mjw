@@ -30,7 +30,8 @@ import {
     QFooter,
     QDrawer,
     QPageSticky,
-    QPageScroller
+    QPageScroller,
+    QSpinnerGrid
 } from 'quasar'
 
 Vue.use(Quasar, {
@@ -42,9 +43,10 @@ Vue.use(Quasar, {
         QFooter,
         QDrawer,
         QPageSticky,
-        QPageScroller
-    }
-})
+        QSpinnerGrid,
+        QPageScroller,
+    },
+});
 
 new Vue({
     store,
